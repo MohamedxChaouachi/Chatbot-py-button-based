@@ -4,6 +4,7 @@ body,html{
 	background: rgb(44, 47, 59);
    background: -webkit-linear-gradient(to right, rgb(40, 59, 34), rgb(54, 60, 70), rgb(32, 32, 43));
 	background: linear-gradient(to right, rgb(38, 51, 61), rgb(50, 55, 65), rgb(33, 33, 78));
+	scroll-behavior: smooth;
 }
 
 .chat{
@@ -11,7 +12,7 @@ body,html{
 	margin-bottom: auto;
 }
 .card{
-	height: 500px;
+	height: 700px;
 	border-radius: 15px !important;
 	background-color: rgba(0,0,0,0.4) !important;
 }
@@ -221,3 +222,38 @@ border-radius: 0 0 15px 15px !important;
 	margin-bottom: 15px !important;
 }
 }
+
+.typing-animation {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+  }
+  
+  .typing-dot {
+	width: 10px;
+	height: 10px;
+	background-color: white;
+	border-radius: 50%;
+	margin: 0 3px;
+	animation: typing 1s infinite;
+  }
+  
+  @keyframes typing {
+	0% { opacity: 0; }
+	50% { opacity: 1; }
+	100% { opacity: 0; }
+  }
+  
+  /* Apply different animation delays to each dot */
+  .typing-dot:nth-child(1) {
+	animation-delay: 0s;
+  }
+  
+  .typing-dot:nth-child(2) {
+	animation-delay: 0.33s;
+  }
+  
+  .typing-dot:nth-child(3) {
+	animation-delay: 0.66s;
+  }
+  

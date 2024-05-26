@@ -1,0 +1,33 @@
+[
+    {
+        "category": "General",
+        "questions": [
+            {
+                "question": "Introduction",
+                "answer": "Ces Conditions Générales d'Utilisation régissent votre utilisation de la marketplace SWILO en Tunisie. ..."
+            },
+            {
+                "question": "Accès à la Marketplace SWILO",
+                "answer": "Pour accéder à certains services de la marketplace SWILO en Tunisie, vous devrez créer un compte. ..."
+            }
+        ]
+    },
+    {
+        "category": "Payment",
+        "questions": [
+            {
+                "question": "Paiement",
+                "answer": "Les clients doivent payer les prestataires de services via la plateforme SWILO. Les paiements doivent être effectués en temps voulu ..."
+            }
+        ]
+    },
+    {
+        "category": "Services",
+        "questions": [
+            {
+                "question": "Services fournis",
+                "answer": "SWILO est une plateforme de services de nettoyage et de vente de produits et de machines de nettoyage écologiques. ..."
+            }
+        ]
+    }
+]
